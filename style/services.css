@@ -1,0 +1,36 @@
+#services {
+  background-color: var(--gray-100);
+
+  & header {
+    margin-inline: auto;
+    text-align: center;
+    padding-block: 5.5rem 3.5rem;
+  }
+
+  & p {
+    padding-bottom: 1.25rem;
+  }
+
+  & section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+    & div {
+      padding-inline: 1.25rem;
+      padding-top: 0.75rem;
+      border: solid 1px var(--gray-200);
+      border-radius: 0.75rem;
+      margin-bottom: 7.5rem;
+
+      width: 17.5rem;
+      height: 9.7rem;
+
+      & img {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.25rem;
+      }
+    }
+  }
+}
